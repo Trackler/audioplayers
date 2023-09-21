@@ -21,7 +21,8 @@ flutter:
         default_package: audioplayers_windows
 
 dependencies:
-  audioplayers_android: ^4.0.1
+  audioplayers_android: 
+    path: ../audioplayers_android
   audioplayers_darwin: ^5.0.1
   audioplayers_linux: ^3.0.0
   audioplayers_platform_interface: ^6.0.0
