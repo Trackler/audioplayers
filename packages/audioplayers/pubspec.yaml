@@ -22,7 +22,10 @@ flutter:
 
 dependencies:
   audioplayers_android: 
-    path: ../audioplayers_android
+    git:
+      url: https://github.com/Trackler/audioplayers.git
+      path: packages/audioplayers
+      ref: e9c7b0d328b9d79883bd3eecad37e26a9c5f8c24
   audioplayers_darwin: ^5.0.1
   audioplayers_linux: ^3.0.0
   audioplayers_platform_interface: ^6.0.0
